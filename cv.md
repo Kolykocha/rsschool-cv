@@ -37,18 +37,18 @@ __Code example:__
 Given two integers a and b, which can be positive or negative, find the sum of all the integers between and including them and return it. If the two numbers are equal return a or b.
 ```C
 int get_sum(int a , int b) {
-  int  c = 0;
+  int  t = 0;
   if (a > b){
-    for(int i = b;i<=a;i++){
-      c=c+i;
+    for(int i = b; i<=a; i++){
+      t = t + i;
     }
       
   }else{
-     for(int i = a;i<=b;i++){
-      c=c+i;
+     for(int i = a; i<=b; i++){
+      t = t + i;
     }
   }
-  return c;
+  return t;
 }
 ```
 
